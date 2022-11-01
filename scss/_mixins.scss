@@ -1,0 +1,59 @@
+@mixin top_section($xxs-height, $xs-height, $sm-height, $md-height, $lg-height, $xl-height) {
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  background: $background-primario;
+  height: $xxs-height;
+  overflow-x: hidden;
+  .top__content__generic {
+    display: flex;
+    text-align: center;
+    padding-top: 50px;
+  }
+  .left__info {
+    padding-left: 0px;
+    align-items: center;
+    text-align: center;
+  }
+  .tittle1 {
+    display: block;
+    font-size: 28px;
+    font-weight: 700;
+    line-break: veryloose;
+    font-family: "Montserrat", sans-serif;
+    margin: 40px 0px 0px 12px;
+    color: $color-principal;
+  }
+  .text1 {
+    display: block;
+    font-size: 13px;
+    font-weight: 200;
+    line-break: veryloose;
+    line-height: 1.8;
+    font-family: "Montserrat", sans-serif;
+    margin: 30px 20px 0px 40px;
+  }
+
+
+  @media (min-width: map-get($breakpoints, "xs")) {
+    height: $xs-height;
+  }
+
+  @media (min-width: map-get($breakpoints, "sm")) {
+    height: $sm-height;
+  }
+
+  @media (min-width: map-get($breakpoints, "md")) {
+    height: $md-height;
+    overflow: hidden;
+  }
+
+  @media (min-width: map-get($breakpoints, "lg")) {
+    height: $lg-height;
+    
+  }
+
+  @media (min-width: map-get($breakpoints, "xl")) {
+    height: $xl-height;
+  }
+}

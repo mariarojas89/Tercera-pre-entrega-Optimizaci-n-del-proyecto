@@ -1,0 +1,29 @@
+$color-principal:#00FFAF;
+$color-secundario: #9E24FF;
+
+$text-color-primario:rgb(54, 54, 75);
+$text-color-secundario: rgb(165, 165, 202);
+$text-color-terciario: #a193ac;
+
+$background-primario:linear-gradient(0deg, rgba(183, 93, 255, 1) 0%, rgba(158, 36, 255, 1) 25%, rgba(0, 0, 0, 1) 94%);
+$background-secundario:rgba(255, 255, 255, 0.904);
+$background-terciario:linear-gradient(180deg, rgba(243, 236, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);;
+
+$border-card-color-primario:white;
+$border-card-color-secundario: #d9d9ff;
+
+$btn-bg-primario:#00FFAF;;
+$btn-bg-secundario:#f1e4ff;
+$btn-bg-terciario:#0000005d;
+
+$btn-border-primario: #00FFAF;
+$btn-border-secundario:#9E24FF;
+$btn-border-terciario:#00000000;
+
+$breakpoints: (
+  "xs": 375px,
+  "sm": 425px,
+  "md": 768px,
+  "lg": 1024px,
+  "xl": 1440px
+)

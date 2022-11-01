@@ -1,0 +1,62 @@
+$demo-btn:(
+  color-demo:white,
+  background-color-demo:#3aff7c00,
+  border-color-demo: #00FFAF,
+  border-radius-demo: 5px,
+  border-width-demo: 2px,
+  boder-style-demo:solid,
+  width-demo:120px,
+  height-demo:50px,
+  font-size-demo:12px,
+  font-weight-demo:500,
+  line-break-demo:veryloose,
+  font-family-demo:'Montserrat',
+  sans-serif,
+);
+
+$demo-btn-hover:(
+    color-demo:black,
+    background-color-demo:#00FFAF,
+);
+
+$demo-about: (
+  color-demo:white,
+  background-color-about:#0000005d,
+  border-color-about: #00000000,
+  border-radius-about: 5px,
+  border-width-about: 2px,
+  boder-style-about:solid,
+  width-about:120px,
+  height-about:50px,
+  font-size-about:12px,
+  font-weight-about:500,
+  line-break-about:veryloose,
+  font-family-about:'Montserrat',
+  sans-serif,
+);
+
+$about-btn-hover: (
+  color-about:black,
+  background-color-about:#f1e4ff,
+);
+
+$card-btn-generic:(
+    card-btn-font-weight: 550,
+    card-btn-font-family: 'Montserrat',
+    sans-serif,
+    card-btn-font-size: 12px,
+    card-btn-line-break: veryloose,
+    card-btn-width: 100px,
+    card-btn-height: 40px,
+    card-btn-color: #36364b,
+    card-btn-border-style: solid,
+    card-btn-background-color: transparent,
+    card-btn-border-color: #d9d9ff,
+    card-btn-border-radius: 5px,
+    card-btn-border-width: 1.8px,
+);
+
+$card-btn-generic-hover:(
+  card-btn-bg:#9E24FF,
+  card-btn-color:white,
+);

@@ -1,0 +1,84 @@
+@import"./variables";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  color: white;
+  height: 100vh;
+  width: 100%;
+}
+
+
+  .modal-content{
+    display: flex;
+    position: relative;
+    right: 35px;
+    flex-direction: column;
+    width: max-content;
+
+    .modal-body{
+      background-color: black;
+      border-style: none;
+      width: max-content;
+      padding: 0;
+    }
+    
+    .modal-footer{
+      border-style: none;
+      justify-content: center;
+      align-items: center;
+      background-color: black;
+    }
+    .modal-header{
+      height: fit-content;
+      background-color: black;
+      border-style: none;
+      }
+      .btn-close{
+        filter: invert(100%);
+      }
+      .modal-title{
+        color: white;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: "Montserrat", sans-serif;
+    }
+    .reel-statement{
+        color: white;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 200;
+        font-family: "Montserrat", sans-serif;
+    }
+  }  
+
+
+.btn-modal-about{
+  display: block;
+  position: relative;
+  top: -5px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: $color-principal;
+  border-width: 2.5px;
+  background-color: $color-principal;
+  color: black;
+  height: 30px;
+  width: 100px;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.btn-modal-about:hover{
+  background-color: black;
+  border-color: black;
+  color: $color-principal;
+  box-shadow: -3px 22px 30px -12px rgba(44, 255, 192, 0.5);
+  transition: all 0.1s ease-in-out;
+}
